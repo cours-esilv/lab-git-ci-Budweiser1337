@@ -21,7 +21,7 @@ jobs:
 
       # Compile notre application
       - name: Build with Maven
-        run: 
+        run: |
           cd /lab-git-ci-Budweiser1337
           mvn initialize --batch-mode --update-snapshots package
         
