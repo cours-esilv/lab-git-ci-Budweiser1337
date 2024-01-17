@@ -26,7 +26,7 @@ jobs:
 
       # Compile notre application
       - name: Build with Maven
-        run: mvn -f /home/runner/work/lab-git-ci-Budweiser1337/lab-git-ci-Budweiser1337 --batch-mode --update-snapshots package
+        run: mvn --batch-mode --update-snapshots package
         
         
       # Publie les résultats de test
